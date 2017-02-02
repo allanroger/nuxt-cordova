@@ -1,0 +1,32 @@
+{
+  "name": "nuxtcordova",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.15.3",
+    "nuxt": "^0.9.6",
+    "vue-cordova": "^0.1.2"
+  },
+  "scripts": {
+    "dev": "npm run lint && nuxt",
+    "build": "npm run lint && nuxt build",
+    "dist": "npm run lint && nuxt generate",
+    "start": "npm run lint && nuxt start",
+    "generate": "npm run lint && nuxt generate",
+    "lint": "eslint --ext .js,.vue ./*.js store pages components layouts",
+    "watch:lint": "esw --ext .js,.vue ./*.js store pages components layouts"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-vue": "^1.0.0",
+    "eslint-watch": "^2.1.14",
+    "node-sass": "^4.2.0",
+    "sass-loader": "^4.1.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0"
+  }
+}
